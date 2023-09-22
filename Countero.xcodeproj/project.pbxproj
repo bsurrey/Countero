@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		438E67CB2ABE033C00CB7CF3 /* CounteroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E67CA2ABE033C00CB7CF3 /* CounteroApp.swift */; };
+		438E67CD2ABE033C00CB7CF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E67CC2ABE033C00CB7CF3 /* ContentView.swift */; };
+		438E67CF2ABE033C00CB7CF3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E67CE2ABE033C00CB7CF3 /* Item.swift */; };
+		438E67D12ABE033E00CB7CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438E67D02ABE033E00CB7CF3 /* Assets.xcassets */; };
+		438E67D52ABE033E00CB7CF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438E67D42ABE033E00CB7CF3 /* Preview Assets.xcassets */; };
+		438E67E02ABE033E00CB7CF3 /* CounteroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E67DF2ABE033E00CB7CF3 /* CounteroTests.swift */; };
+		438E67EA2ABE033E00CB7CF3 /* CounteroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E67E92ABE033E00CB7CF3 /* CounteroUITests.swift */; };
+		438E67EC2ABE033E00CB7CF3 /* CounteroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E67EB2ABE033E00CB7CF3 /* CounteroUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		438E67DC2ABE033E00CB7CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438E67BF2ABE033C00CB7CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438E67C62ABE033C00CB7CF3;
+			remoteInfo = Countero;
+		};
+		438E67E62ABE033E00CB7CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438E67BF2ABE033C00CB7CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438E67C62ABE033C00CB7CF3;
+			remoteInfo = Countero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		438E67C72ABE033C00CB7CF3 /* Countero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		438E67CA2ABE033C00CB7CF3 /* CounteroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounteroApp.swift; sourceTree = "<group>"; };
+		438E67CC2ABE033C00CB7CF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		438E67CE2ABE033C00CB7CF3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		438E67D02ABE033E00CB7CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		438E67D22ABE033E00CB7CF3 /* Countero.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Countero.entitlements; sourceTree = "<group>"; };
+		438E67D42ABE033E00CB7CF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		438E67D62ABE033E00CB7CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438E67DB2ABE033E00CB7CF3 /* CounteroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounteroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438E67DF2ABE033E00CB7CF3 /* CounteroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounteroTests.swift; sourceTree = "<group>"; };
+		438E67E52ABE033E00CB7CF3 /* CounteroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounteroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438E67E92ABE033E00CB7CF3 /* CounteroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounteroUITests.swift; sourceTree = "<group>"; };
+		438E67EB2ABE033E00CB7CF3 /* CounteroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounteroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438E67C42ABE033C00CB7CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438E67D82ABE033E00CB7CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438E67E22ABE033E00CB7CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438E67BE2ABE033C00CB7CF3 = {
+			isa = PBXGroup;
+			children = (
+				438E67C92ABE033C00CB7CF3 /* Countero */,
+				438E67DE2ABE033E00CB7CF3 /* CounteroTests */,
+				438E67E82ABE033E00CB7CF3 /* CounteroUITests */,
+				438E67C82ABE033C00CB7CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		438E67C82ABE033C00CB7CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438E67C72ABE033C00CB7CF3 /* Countero.app */,
+				438E67DB2ABE033E00CB7CF3 /* CounteroTests.xctest */,
+				438E67E52ABE033E00CB7CF3 /* CounteroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		438E67C92ABE033C00CB7CF3 /* Countero */ = {
+			isa = PBXGroup;
+			children = (
+				438E67CA2ABE033C00CB7CF3 /* CounteroApp.swift */,
+				438E67CC2ABE033C00CB7CF3 /* ContentView.swift */,
+				438E67CE2ABE033C00CB7CF3 /* Item.swift */,
+				438E67D02ABE033E00CB7CF3 /* Assets.xcassets */,
+				438E67D22ABE033E00CB7CF3 /* Countero.entitlements */,
+				438E67D62ABE033E00CB7CF3 /* Info.plist */,
+				438E67D32ABE033E00CB7CF3 /* Preview Content */,
+			);
+			path = Countero;
+			sourceTree = "<group>";
+		};
+		438E67D32ABE033E00CB7CF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				438E67D42ABE033E00CB7CF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		438E67DE2ABE033E00CB7CF3 /* CounteroTests */ = {
+			isa = PBXGroup;
+			children = (
+				438E67DF2ABE033E00CB7CF3 /* CounteroTests.swift */,
+			);
+			path = CounteroTests;
+			sourceTree = "<group>";
+		};
+		438E67E82ABE033E00CB7CF3 /* CounteroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				438E67E92ABE033E00CB7CF3 /* CounteroUITests.swift */,
+				438E67EB2ABE033E00CB7CF3 /* CounteroUITestsLaunchTests.swift */,
+			);
+			path = CounteroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		438E67C62ABE033C00CB7CF3 /* Countero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438E67EF2ABE033E00CB7CF3 /* Build configuration list for PBXNativeTarget "Countero" */;
+			buildPhases = (
+				438E67C32ABE033C00CB7CF3 /* Sources */,
+				438E67C42ABE033C00CB7CF3 /* Frameworks */,
+				438E67C52ABE033C00CB7CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Countero;
+			productName = Countero;
+			productReference = 438E67C72ABE033C00CB7CF3 /* Countero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		438E67DA2ABE033E00CB7CF3 /* CounteroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438E67F22ABE033E00CB7CF3 /* Build configuration list for PBXNativeTarget "CounteroTests" */;
+			buildPhases = (
+				438E67D72ABE033E00CB7CF3 /* Sources */,
+				438E67D82ABE033E00CB7CF3 /* Frameworks */,
+				438E67D92ABE033E00CB7CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438E67DD2ABE033E00CB7CF3 /* PBXTargetDependency */,
+			);
+			name = CounteroTests;
+			productName = CounteroTests;
+			productReference = 438E67DB2ABE033E00CB7CF3 /* CounteroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		438E67E42ABE033E00CB7CF3 /* CounteroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438E67F52ABE033E00CB7CF3 /* Build configuration list for PBXNativeTarget "CounteroUITests" */;
+			buildPhases = (
+				438E67E12ABE033E00CB7CF3 /* Sources */,
+				438E67E22ABE033E00CB7CF3 /* Frameworks */,
+				438E67E32ABE033E00CB7CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438E67E72ABE033E00CB7CF3 /* PBXTargetDependency */,
+			);
+			name = CounteroUITests;
+			productName = CounteroUITests;
+			productReference = 438E67E52ABE033E00CB7CF3 /* CounteroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		438E67BF2ABE033C00CB7CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					438E67C62ABE033C00CB7CF3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					438E67DA2ABE033E00CB7CF3 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 438E67C62ABE033C00CB7CF3;
+					};
+					438E67E42ABE033E00CB7CF3 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 438E67C62ABE033C00CB7CF3;
+					};
+				};
+			};
+			buildConfigurationList = 438E67C22ABE033C00CB7CF3 /* Build configuration list for PBXProject "Countero" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 438E67BE2ABE033C00CB7CF3;
+			productRefGroup = 438E67C82ABE033C00CB7CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				438E67C62ABE033C00CB7CF3 /* Countero */,
+				438E67DA2ABE033E00CB7CF3 /* CounteroTests */,
+				438E67E42ABE033E00CB7CF3 /* CounteroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438E67C52ABE033C00CB7CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438E67D52ABE033E00CB7CF3 /* Preview Assets.xcassets in Resources */,
+				438E67D12ABE033E00CB7CF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438E67D92ABE033E00CB7CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438E67E32ABE033E00CB7CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438E67C32ABE033C00CB7CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438E67CD2ABE033C00CB7CF3 /* ContentView.swift in Sources */,
+				438E67CF2ABE033C00CB7CF3 /* Item.swift in Sources */,
+				438E67CB2ABE033C00CB7CF3 /* CounteroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438E67D72ABE033E00CB7CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438E67E02ABE033E00CB7CF3 /* CounteroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438E67E12ABE033E00CB7CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438E67EC2ABE033E00CB7CF3 /* CounteroUITestsLaunchTests.swift in Sources */,
+				438E67EA2ABE033E00CB7CF3 /* CounteroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		438E67DD2ABE033E00CB7CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438E67C62ABE033C00CB7CF3 /* Countero */;
+			targetProxy = 438E67DC2ABE033E00CB7CF3 /* PBXContainerItemProxy */;
+		};
+		438E67E72ABE033E00CB7CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438E67C62ABE033C00CB7CF3 /* Countero */;
+			targetProxy = 438E67E62ABE033E00CB7CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		438E67ED2ABE033E00CB7CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		438E67EE2ABE033E00CB7CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		438E67F02ABE033E00CB7CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Countero/Countero.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Countero/Preview Content\"";
+				DEVELOPMENT_TEAM = 3VL3FJXX72;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Countero/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminsurrey.Countero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		438E67F12ABE033E00CB7CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Countero/Countero.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Countero/Preview Content\"";
+				DEVELOPMENT_TEAM = 3VL3FJXX72;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Countero/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminsurrey.Countero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		438E67F32ABE033E00CB7CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VL3FJXX72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminsurrey.CounteroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Countero.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Countero";
+			};
+			name = Debug;
+		};
+		438E67F42ABE033E00CB7CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VL3FJXX72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminsurrey.CounteroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Countero.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Countero";
+			};
+			name = Release;
+		};
+		438E67F62ABE033E00CB7CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VL3FJXX72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminsurrey.CounteroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Countero;
+			};
+			name = Debug;
+		};
+		438E67F72ABE033E00CB7CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VL3FJXX72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminsurrey.CounteroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Countero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		438E67C22ABE033C00CB7CF3 /* Build configuration list for PBXProject "Countero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438E67ED2ABE033E00CB7CF3 /* Debug */,
+				438E67EE2ABE033E00CB7CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438E67EF2ABE033E00CB7CF3 /* Build configuration list for PBXNativeTarget "Countero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438E67F02ABE033E00CB7CF3 /* Debug */,
+				438E67F12ABE033E00CB7CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438E67F22ABE033E00CB7CF3 /* Build configuration list for PBXNativeTarget "CounteroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438E67F32ABE033E00CB7CF3 /* Debug */,
+				438E67F42ABE033E00CB7CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438E67F52ABE033E00CB7CF3 /* Build configuration list for PBXNativeTarget "CounteroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438E67F62ABE033E00CB7CF3 /* Debug */,
+				438E67F72ABE033E00CB7CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 438E67BF2ABE033C00CB7CF3 /* Project object */;
+}
