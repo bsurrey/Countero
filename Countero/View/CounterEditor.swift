@@ -47,12 +47,6 @@ struct CounterEditor: View {
                 }
                 
                 NumericField(title: "Start Value", fieldValue: $value)
-                    .onChange(of: maxValue) { newValue in
-                        if minValue.isEmpty { return }
-                        if let max = Int64(newValue), let min = Int64(minValue), max < min {
-                            maxValue = minValue
-                        }
-                    }
                 
                 Section {
                     ColorPicker("Color", selection: $color, supportsOpacity: false)
