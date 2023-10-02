@@ -12,19 +12,19 @@ import SwiftUI
 
 @Model
 final class Counter {
-    var id: UUID
-    var timestamp: Date
+    var id: UUID = UUID()
+    var timestamp: Date = Date()
     
-    var title: String
+    var title: String = ""
     var note: String?
     
     var canBeNegative: Bool?
     
-    var red: Float
-    var green: Float
-    var blue: Float
+    var red: Float = Color.blue.toRGB().red
+    var green: Float = Color.green.toRGB().green
+    var blue: Float = Color.blue.toRGB().blue
     
-    var value: Int64
+    var value: Int64 = 0
     var minValue: Int64?
     var maxValue: Int64?
     

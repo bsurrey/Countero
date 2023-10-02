@@ -35,12 +35,10 @@ struct NumericField: View {
                 EmptyView()
             } onIncrement: {
                 var tempInt = Int64(fieldValue) ?? 0
-                print(tempInt)
                 tempInt += 1
                 fieldValue = String(tempInt)
             } onDecrement: {
                 var tempInt = Int64(fieldValue) ?? 0
-                print(tempInt)
                 tempInt -= 1
                 fieldValue = String(tempInt)
             }

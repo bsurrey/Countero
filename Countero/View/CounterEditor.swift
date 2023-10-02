@@ -24,15 +24,12 @@ struct CounterEditor: View {
     @State private var note: String = ""
     // Value(s)
     @State private var value: String = "0"
-    @State private var minValue: String = ""
-    @State private var maxValue: String = ""
+    @State private var stepSize: String = "1"
+
     //Design
     @State private var color: Color = Color.blue
     //Bools
     @State private var canBeNegative = false
-    
-    @State private var addSteps: String = "1"
-    @State private var removeSteps: String = "1"
     
     @State private var showNegationPane: Bool = false
     
@@ -41,25 +38,39 @@ struct CounterEditor: View {
     var body: some View {
         NavigationStack {
             Form {
-                Section {
+                Section(header: Text("Information"), content: {
                     TextField("Name", text: $title)
-
-                }
+                })
                 
-                NumericField(title: "Start Value", fieldValue: $value)
+                Section(header: Text("Value"), content: {
+                    NumericField(title: "Start Value", fieldValue: $value)
+                        .onChange(of: value) { oldValue, newValue in
+                            if newValue.isEmpty {
+                                value = String(0)
+                            }
+                            
+                            if Int64(newValue) ?? 0 < 0 {
+                                value = String(0)
+                            }
+                        }
+                })
+                
+                Section(header: Text("Step Size")) {
+                    NumericField(title: "Step Size", fieldValue: $stepSize)
+                        .onChange(of: stepSize) { oldValue, newValue in
+                            if newValue.isEmpty {
+                                stepSize = String(1)
+                            }
+                            
+                            if Int64(newValue) ?? 1 < 1 {
+                                stepSize = String(1)
+                            }
+                        }
+                }
                 
                 Section {
-                    ColorPicker("Color", selection: $color, supportsOpacity: false)
-
+                    ColorPicker("Accent color", selection: $color, supportsOpacity: false)
                 }
-                
-                Section {
-                    Toggle("Allow Negative Value", isOn: $canBeNegative)
-                        .toggleStyle(SwitchToggleStyle())
-                }
-            }
-            .actionSheet(isPresented: $showNegationPane) {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/ActionSheet(title: Text("Action Sheet"))/*@END_MENU_TOKEN@*/
             }
             .toolbar {
                 ToolbarItem(placement: .principal) {
@@ -82,8 +93,14 @@ struct CounterEditor: View {
                     }
                 }
             }
+            .onAppear {
+                if let counter {
+                    title = counter.title
+                    value = String(counter.value)
+                    color = counter.getColor()
+                }
+            }
         }
-        
     }
     
     private func save() {

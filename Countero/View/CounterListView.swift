@@ -21,9 +21,8 @@ struct CounterListView: View {
             ForEach(counters) { counter in
                 NavigationLink(value: counter) {
                     HStack {
-                            Text("\(counter.title)")
+                        Text("\(counter.title)")
     
-                        
                         Spacer()
                         
                         VStack {
@@ -45,8 +44,7 @@ struct CounterListView: View {
                     )
                 }
             }
-            .onDelete(perform: removeCounters)
-            
+            .onDelete(perform: removeCounters) 
         }
         .sheet(isPresented: $isEditorPresented) {
             CounterEditor(counter: nil)
