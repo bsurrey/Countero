@@ -60,6 +60,7 @@
 /* Begin PBXFileReference section */
 		436C45592AC07DBD00FC5815 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
 		436C455B2AC07DBD00FC5815 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
+		4372BA692ACA67AB0012E08F /* CounteroRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CounteroRelease.entitlements; sourceTree = "<group>"; };
 		438E67C72ABE033C00CB7CF3 /* Countero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		438E67CA2ABE033C00CB7CF3 /* CounteroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounteroApp.swift; sourceTree = "<group>"; };
 		438E67CC2ABE033C00CB7CF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -148,6 +149,7 @@
 				438E67FC2ABE09A000CB7CF3 /* View */,
 				438E67CA2ABE033C00CB7CF3 /* CounteroApp.swift */,
 				438E67D02ABE033E00CB7CF3 /* Assets.xcassets */,
+				4372BA692ACA67AB0012E08F /* CounteroRelease.entitlements */,
 				438E67D22ABE033E00CB7CF3 /* Countero.entitlements */,
 				438E67D62ABE033E00CB7CF3 /* Info.plist */,
 				438E67D32ABE033E00CB7CF3 /* Preview Content */,
